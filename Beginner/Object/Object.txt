@@ -1,0 +1,37 @@
+프로퍼티
+Property
+{name: value} 형태
+name에 따움표 작성 생량
+
+따움표를 작성하지 않는것은 JS가 따움표를 작성해서 지원하기 때문이다.
+
+프로퍼티 추가, 변경
+let obj ={}
+obg.abc = 123;
+obj 오브젝트에 프로퍼티 이름으로
+abc가 없으면 abc:123이 추가되고
+abc가 있으면 프로퍼티 값이 123으로 변경됨
+
+작성방법
+점과 프로퍼티 이름 사용
+대괄호 사용
+abc 변수 이름 작성 : obj[abc]
+
+프로퍼티 값 접근하기
+객체 이름의 . 혹은 [] 로 name을 접근하면 value를 뽑을수있다.
+
+for~in
+오브젝트에서 프로퍼티를 열거
+형태
+for(변수 in 오브젝트) 문장;
+
+예를 들어
+let arr = {
+    aa='aa',
+    bb='bb',
+}
+for(let kk in arr){
+    console.log(kk);
+    console.log(arr[kk]);
+}
+프로퍼티를 작성한 순서대로 읽는다
