@@ -1,0 +1,36 @@
+빌트인 값  타입
+undefined, Null, Boolean, Number, String, Object
+
+빈트인 연산자
++,-,*,?,%,++,--,new
+
+빌트인 오브젝트
+빌트인 Number 오브젝트
+여기서 object는 소문자
+예전에는 대문자 Object는 {key:value} 이런 식으로 만들었으면
+
+소문자는 데이터를 처리하는데 중점을 둔다. 즉 함수가 존재한다.
+
+자바스크립트의 형태는 다 키 : value이런 형식이다
+그래서 프로퍼티 들이 모여있는데 빌트인 오브젝트들은 함수가 들어있다.
+
+1. 빌트인 NUmber 오브젝트는
+number 처리를 위한 프로퍼티의 집합입니다.
+즉 number 처리를 위한 오브젝트입니다.
+
+2. JS에서 Number 처리를 위한 프로퍼티를사전에 만들어 제공하므로
+즉 built-in 으로 제공하므로number.length로 1을 구할수 있으며
+Number.isNaN()로 함수를 호출할수 있습니다.
+
+빌트인 오브젝트
+Number 오브젝트 (123 같은 숫자, 상수, 지수)
+String 오브젝트 ('abc'와 같은 문자열, 분리, 연결)
+Boolean 오브젝트 (true, false)
+Object 오브젝트 ({key:value})
+Array 오브젝트 ([1,2,3,4] 배열 형태)
+Function 오브젝트  (function abc(){} 형태)
+Math 오브젝트 (abs(), round()등의 수학 계산)
+Date 오브젝트 (연월일, 시분초)
+Json 오브젝트 (서버와 데이터 송수신에 사용)
+RegExp 오브젝트 (정규 표현식)
+글로벌 오브젝트 (소스 파일 전체에서 하나만 존재, 모든 코드에서 공유, 접근 가능, 전역객체라고도 하며, 뉘앙스에 차이 있음)
